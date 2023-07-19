@@ -35,10 +35,6 @@ const Sidenav = () => {
             <AiOutlineProject size={20} />
             <span className="pl-4">Proyectos</span>
           </a>
-          <a onClick={handleNav} href="#resumen" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-            <BsPerson size={20} />
-            <span className="pl-4">Resumen</span>
-          </a>
           <a onClick={handleNav} href="#contacto" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
             <AiOutlineMail size={20} />
             <span className="pl-4">Contacto</span>
@@ -62,11 +58,6 @@ const Sidenav = () => {
         <div className="flex flex-col rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 justify-center">
           <a href="#proyectos">
             <AiOutlineProject size={20} />
-          </a>
-        </div>
-        <div className="flex flex-col rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 justify-center">
-          <a href="#resumen">
-            <BsPerson size={20} />
           </a>
         </div>
         <div className="flex flex-col rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 justify-center">
